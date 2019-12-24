@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ujian_praktikum_1174035.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Captcha_1174035.settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError:

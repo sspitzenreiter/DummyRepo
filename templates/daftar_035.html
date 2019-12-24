@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<title> Users pendaftaran_cpns_1174039</title>
+</head>
+
+
+
+<body>
+	<div>
+		<h1>Please Sign Up</h1>
+		<form method="POST">
+			{{ form.as_p }}
+			{% csrf_token %}
+
+			<input type="submit"  class='btn btn-primary'  value="Submit"/>
+		</form>
+	</div>
+	
+	
+</body>
+</html>

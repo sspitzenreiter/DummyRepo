@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Users Ujian Praktikum Luthfi Muhammad Nabil_1174035</title>
+    </head>
+    <body>
+        <h1>Here are your users:_Luthfi_1174035</h1>
+        <ol>
+            {% for col in daftaruser %}
+            <li>User Info
+                <ul>
+                    <li>First Name : {{ col.first_name }}</li>
+                    <li>Last Name : {{ col.last_name }}</li>
+                    <li>Email : {{ col.email }}</li>
+                </ul>
+            </li>
+            {% endfor %}
+        </ol>
+    </body>
+</html>

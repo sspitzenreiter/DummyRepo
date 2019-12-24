@@ -25,7 +25,7 @@ SECRET_KEY = 'k=7m3&$q^umugy7)@pgq!#7+m8l^p+rr(5cbnln(^t9__h4h^_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://sspitzenreiter.pythonanywhere.com']
 
 
 # Application definition
